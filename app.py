@@ -224,7 +224,7 @@ def main():
         
         # Input de pips com slider e campo numérico
         st.markdown("### 📏 Stop Loss")
-        pips = st.slider(
+        pips = st.number_input(
             "Quantidade de pips",
             min_value=0.0,
             max_value=200.0,
